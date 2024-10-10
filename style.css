@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.navbar{
+    display: flex;
+    margin: 9px;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.text{
+    color: blue;
+    font-weight: 550;
+    font-size: x-large;
+    position: absolute;
+    margin:12px 10px;
+}
+
+.btn{
+    background-color: yellow;
+    color: blue;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(239, 239, 108);
+}
+
+input{
+    height: 26px;
+    border-radius: 3px;
+}
+
+.containers{
+    display: flex;
+    place-content: center;
+    gap:20px;
+}
+
+.cont{
+    width: 25%;
+    border: 1px solid gray;
+    align-content:start;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.uppertext{
+    padding: 12px;
+    background-color:rgba(16, 38, 236, 0.811);
+    border-radius:12px 12px 0px 0px;
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(0, 255, 242);
+}
+
+.city{
+   text-align: center;
+   font-size:x-large;
+   margin: 12px;
+   margin-bottom: 20px;
+   font-weight: 600;
+}
+
+.info{
+    margin: 20px auto;
+    color:rgb(0, 17, 255);
+    font-size: large;
+
+}
+
+.maininfo{
+    margin-top: 12px;
+    font-size: xx-large;
+    font-weight: 600;
+    color:rgb(255, 0, 247);
+}
+
+.bottom h2{
+    margin: 22px;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+thead th{
+    padding: 12px;
+    color: orange;
+} 
+
+.othercities th{
+    padding: 12px;
+    color: blue;
+    font-weight: 550;
+}
+
+.othercities td{
+    text-align: center;
+    color: rgb(255, 0, 238);
+    font-weight: 550;
+}
